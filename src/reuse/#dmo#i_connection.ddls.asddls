@@ -20,10 +20,10 @@ define view /DMO/I_Connection
 
   key Connection.connection_id   as ConnectionID,
 
-      @Consumption.valueHelpDefinition: [{entity: {name: '/DMO/I_Airport', element: 'Airport_ID' } }]
+      @Consumption.valueHelpDefinition: [{entity: {name: '/DMO/I_Airport', element: 'AirportID' } }]
       Connection.airport_from_id as DepartureAirport,
 
-      @Consumption.valueHelpDefinition: [{entity: {name: '/DMO/I_Airport', element: 'Airport_ID' } }]
+      @Consumption.valueHelpDefinition: [{entity: {name: '/DMO/I_Airport', element: 'AirportID' } }]
       Connection.airport_to_id   as DestinationAirport,
 
       Connection.departure_time  as DepartureTime,
