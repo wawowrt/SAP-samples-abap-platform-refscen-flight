@@ -33,7 +33,7 @@ define view /DMO/I_Connection
       @Semantics.quantity.unitOfMeasure: 'DistanceUnit'
       Connection.distance        as Distance,
 
-      @Semantics.unitOfMeasure: true
+//    @Semantics.unitOfMeasure: true
       Connection.distance_unit   as DistanceUnit, 
       
       /* Associations */
