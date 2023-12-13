@@ -30,10 +30,10 @@ define view /DMO/I_Connection
 
       Connection.arrival_time    as ArrivalTime,
 
-      @Semantics.quantity.unitOfMeasure: 'DistanceUnit'
+//    @Semantics.quantity.unitOfMeasure: 'DistanceUnit'
       Connection.distance        as Distance,
 
-//    @Semantics.unitOfMeasure: true
+      @Semantics.unitOfMeasure: true
       Connection.distance_unit   as DistanceUnit, 
       
       /* Associations */
