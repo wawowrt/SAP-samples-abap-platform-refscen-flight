@@ -24,7 +24,7 @@ define view /DMO/I_Airport
       @Search.defaultSearchElement: true
       Airport.city       as City,
 
-      @Consumption.valueHelpDefinition: [{entity: { name: 'I_Country', element: 'country' } }]
+      @Consumption.valueHelpDefinition: [{entity: { name: 'I_Country', element: 'Country' } }]
       Airport.country    as CountryCode,
 
       /* Associations */
