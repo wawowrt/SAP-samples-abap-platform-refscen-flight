@@ -15,7 +15,7 @@ define view /DMO/I_Connection
       @Search.defaultSearchElement: true
       @Search.fuzzinessThreshold: 0.8
       @ObjectModel.text.association: '_Airline'
-      @Consumption.valueHelpDefinition: [{ entity: { name: '/DMO/I_Carrier', element: 'CarrierID'} }]
+      @Consumption.valueHelpDefinition: [{ entity: { name: '/DMO/I_Carrier', element: 'AirlineID'} }]
   key Connection.carrier_id      as AirlineID,
 
   key Connection.connection_id   as ConnectionID,
